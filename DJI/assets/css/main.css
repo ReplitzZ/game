@@ -18,6 +18,12 @@
 		vertical-align: baseline;
 	}
 
+	@media screen and (max-width: 480px) {
+		iframe {
+			width: 100% !important;
+		}
+	}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -1396,7 +1402,7 @@
 	}
 
 	body {
-		background: #2e3842;
+		background: #FFFFFF;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2361,14 +2367,14 @@
 /* Features */
 
 	.features {
-		display: -moz-flex;
+		/*display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
 		-moz-flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
+		flex-wrap: wrap;*/
 		-moz-justify-content: center;
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
@@ -2531,7 +2537,13 @@
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-image: url("http://www2.djicdn.com/assets/images/products/phantom-4/new/s3-bg3-d8cb574a9960b2c0383b36f3dfa2ca42.jpg");
+			background-size: cover;
+    		background-repeat: no-repeat;
+		}
+
+		section#ivan-mod {
+    		background: none;
 		}
 
 		.spotlight:nth-child(3) {
@@ -2641,8 +2653,9 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c7ebe8;
+			 background: url(//asset1.djicdn.com/images/360/phantom-4/draggable_360_v2/0_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2795,12 +2808,18 @@
 			}
 
 		.wrapper.style2 {
-			background-color: #2e3842;
+			    background: url(http://www1.djicdn.com/assets/images/products/phantom-4/new/s3-bg2-ee8689d9d4c0b5ea93a5b7685cd834bb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+		}
+
+		.ivan-div-mod {
+
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
-			color: #d3d4e4;
+			background-color: #FFFFFF;
+			color: #707173;
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
@@ -2808,7 +2827,7 @@
 			}
 
 			.wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
-				color: #ffffff;
+				color: #707173;
 			}
 
 			.wrapper.style3 hr {
@@ -2832,7 +2851,7 @@
 			}
 
 			.wrapper.style3 header.major p {
-				color: #d3d4e4;
+				color: #707173;
 			}
 
 			.wrapper.style3 label {
@@ -2953,7 +2972,7 @@
 			}
 
 		.wrapper.style4 {
-			background-color: transparent;
+			background-color: #44a8f2;
 		}
 
 		.wrapper.style5 {
@@ -3509,7 +3528,7 @@
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			content: '';
-			background: #2e3842;
+			background: #808080;
 			display: block;
 			width: 100%;
 			height: 100%;
@@ -3601,6 +3620,7 @@
 			#cta .inner {
 				display: block;
 				text-align: center;
+				margin-left: 0
 			}
 
 				#cta .inner header {
@@ -3710,7 +3730,7 @@
 		}
 
 			#footer .icons a {
-				color: rgba(255, 255, 255, 0.5);
+				color: rgba(112, 113, 115, 1);
 			}
 
 				#footer .icons a:hover {
@@ -3718,7 +3738,7 @@
 				}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.5);
+			color: #707173;
 			font-size: 0.8em;
 			letter-spacing: 0.225em;
 			list-style: none;
@@ -3779,10 +3799,10 @@
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://asset1.djicdn.com/images/360/phantom-4/draggable_360_v2/0_1.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://asset1.djicdn.com/images/360/phantom-4/draggable_360_v2/0_1.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://asset1.djicdn.com/images/360/phantom-4/draggable_360_v2/0_1.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://asset1.djicdn.com/images/360/phantom-4/draggable_360_v2/0_1.png");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3791,7 +3811,7 @@
 	}
 
 	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
+		background-color: #FFFFFF;
 	}
 
 	body.is-mobile.landing #page-wrapper {
@@ -3801,7 +3821,6 @@
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-position: center center;
@@ -3811,4 +3830,9 @@
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
+	}
+
+	#ivan-div-center {
+		    text-align: center;
+    margin-left: 42.5%;
 	}
