@@ -397,7 +397,7 @@ var boreDOM = {
 	  		stars: {
 				
 				tank: [{
-					div: '<div class="tnk">',
+					div: '<div class="tank">',
 					speed: 10000, 
 					frequency: 20000 
 				}],
