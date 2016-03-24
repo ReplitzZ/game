@@ -14,16 +14,16 @@ var boreDOM = {
 	ship: {
 		shipId: '#ship',
 		bullet: '<div class="bullet">',
-		shipSpeed: 10,
-		bulletSpeed: 7000
+		shipSpeed: 20,
+		bulletSpeed: 2000
 	},
 
 	enemy: {
 		small: {
 			divClass: 'enemy-1',
 			bulletClass: '.enemy-bullet',
-			bulletSpeed: 8000,
-			speed: 40000, 
+			bulletSpeed: 2000,
+			speed: 10000, 
 			frequency: 1500
 		}
 	},
