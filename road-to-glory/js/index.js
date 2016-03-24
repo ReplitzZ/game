@@ -397,31 +397,31 @@ var boreDOM = {
 	  		stars: {
 				
 				tank: [{
-					div: '<div class="tank">',
+					div: '<div class="tnk">',
 					speed: 10000, 
 					frequency: 20000 
 				}],
 
 				planet: [{
-					div: '<div class="planet">',
+					div: '<div class="plnet">',
 					speed: 60000, 
 					frequency: 40000 
 				}],
 
 				bigBullet: [{
-					div: '<div class="big-bullet">',
+					div: '<div class="bibullet">',
 					speed: 90000, 		
 					frequency: 60000 
 				}],
 
 				smallBullet: [{
-					div: '<div class="small-bullet">',
+					div: '<div class="smalbullet">',
 					speed: 150000, 		
 					frequency: 80000 
 				}],
 
 				deathstar: [{
-					div: '<div class="deathstar">',
+					div: '<div class="deatstar">',
 					speed: 20000, 
 					frequency: 100000 
 				}]
